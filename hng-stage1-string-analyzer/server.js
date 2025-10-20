@@ -19,7 +19,7 @@ app.use("/strings", stringRoutes);
 
 // Root route
 app.get("/", (req, res) => {
-  res.send("Welcome to the String Analyzer API 🚀");
+  res.send("Welcome to the String Analyzer API");
 });
 
 // Start server
